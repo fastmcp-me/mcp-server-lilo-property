@@ -30,5 +30,6 @@ https://mcp.lilo.property/mcp
 | get_squatter_risk | 50-state tenancy analysis | 3 |
 
 ## Documentation
-
 [mcp.lilo.property/llms.txt](https://mcp.lilo.property/llms.txt)
+[mcp.lilo.property/llms.txt](https://mcp.lilo.property/llms.txt)
+
