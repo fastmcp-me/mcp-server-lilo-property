@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY package.json index.js ./
 
-RUN npm install --production
+RUN chmod +x index.js
 
 ENTRYPOINT ["node", "index.js"]
