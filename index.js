@@ -43,7 +43,7 @@ rl.on('line', (line) => {
             text: JSON.stringify({
               message: "Connect to https://mcp.lilo.property/mcp for full functionality",
               tool: params?.name,
-              get_api_key: "curl https://mcp.lilo.property/developers/key"
+              get_api_key: 'curl -X POST https://mcp.lilo.property/developers/key -H "Content-Type: application/json" -d \'{"email":"you@example.com"}\''
             })
           }]
         };
